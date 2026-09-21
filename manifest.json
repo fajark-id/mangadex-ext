@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "MangaDex CBZ/PDF Downloader",
+  "version": "1.0",
+  "description": "Download chapter MangaDex jadi CBZ/PDF dengan efektif.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://mangadex.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
